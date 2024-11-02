@@ -12,7 +12,7 @@ available_books = [
 ]
 class LibraryAccount:
     
-    def __init__(self,user_name,available_books,borrowed_books= None,):
+    def __init__(self,user_name,available_books,borrowed_books= None):
         self.user_name = user_name
         self.available_books = available_books
         if borrowed_books is not None:
