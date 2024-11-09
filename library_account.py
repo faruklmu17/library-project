@@ -19,3 +19,5 @@ class LibraryAccount:
             self.borrowed_books = borrowed_books
         else:
             self.borrowed_books = borrowed_books
+
+UserAccount = LibraryAccount("Eric", "")
